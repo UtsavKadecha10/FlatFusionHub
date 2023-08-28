@@ -1,16 +1,11 @@
-const MongoClient = require('mongodb').MongoClient;
+const { MongoClient } = require('mongodb')
 
-const url = "mongodb://0.0.0.0:27017";
-const databaseName = "Property";
+// Create Instance of MongoClient for mongodb
+const client = new MongoClient('mongodb://0.0.0.0:27017/Property')
 
-MongoClient.connect(url, { useNewUrlParser: true }, (error, client) => {
-  if (error) {
-    return console.log("Connection failed for some reason");
-  }
-  console.log("Connection established - All well");
-  const db = client.db(databaseName);
-});
-  
+// Connect to database
+client.connect()
+    .then(() => console.log('Connected to MongoDB'))
+    .catch(error => console.log('Failed to connect', error))
 
-
-
+module.exports = MongoClient

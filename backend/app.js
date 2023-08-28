@@ -17,6 +17,12 @@ app.post('/login', login);
 const postProperty = require('./modules/sellProperty/post.js');
 app.post('/postProperty', postProperty);
 
+const buyProperty = require('./modules/buyProperty/get.js')
+app.get('/buyProperty', buyProperty);
+
+const rentProperty = require('./modules/rentProperty/get.js')
+app.get('/rentProperty', rentProperty);
+
 const port = 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
