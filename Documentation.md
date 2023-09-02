@@ -20,15 +20,58 @@ FlatFusionHub is an ambitious web application project that combines the power of
 - **Databases Used**: MongoDB and MySQL
 - **Key Tables Include**:
     - **APARTMENT/FLAT FOR SELL/RENT**:
-        - Entries for predicting property rates 📈
+        - **Entries in db**:
+            - Type of User
+            - Name
+            - Mobile No.
+            - Email
+            - Property for (sell/rent)
+            - Property Type
+            - City
+            - Locality
+            - Furnishing details
+        - **Entries for predicting rate** 📈
+
     - **APARTMENT/FLAT FOR RENT**:
-        - Entries for predicting rental prices 🏡💰
+        - **Entries in db**: 
+            - Flat No. 
+            - BHK
+            - Rent
+            - Total Floor
+            - Current Floor
+            - Area Locality
+            - City
+            - Furnishing status
+            - Preferred Tenants
+            - Bathroom
+            - Point of contact
+        - **Entries for predicting rent**:
+            - BHK	
+            - Size
+            - Area Locality
+            - Current Floor
+            - City
+            - Furnishing status
+            - Preferred tenants
+            - Bathroom 
+
     - **APARTMENT/FLAT TO BUY**:
-        - Entries for predicting property purchase prices 🏢💰
+        - **Entries in db**
+        - **Entries for predicting amount** 
+
     - **LOGS**:
-        - Recording each API request with details like URL, method, and IP address 📝
+        - **Entry every time we hit any API**:
+            - url
+            - method
+            - ipAddress 
+
     - **USER INFORMATION**:
-        - Storing user details, including user type (Agent/Owner/Tenant/Buyer/Builder) 👥
+        - **Entries in db**:
+            - User Type(Agent/Owner/Tenant/Buyer/Builder)
+            - Name
+            - Age
+            - Email
+            - Phone No. 
 
 ### Machine Learning and Deep Learning Integration with MLOps 🤯
 
