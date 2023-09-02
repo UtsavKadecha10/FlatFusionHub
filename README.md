@@ -26,9 +26,9 @@ FlatFusionHub is a cutting-edge web application project based on the MERN stack,
 
 ## Contributors 🙌
 
-- Aditya Goyal ([GitHub Profile](https://github.com/adityagoyal2103))
-- Reyansh Yogi ([GitHub Profile](https://github.com/reyanshyogi))
-- Utsav Kadecha ([GitHub Profile](https://github.com/utsavk13))
+- [Aditya Goyal](https://github.com/I-AdityaGoyal)
+- [Reyance Yogi](https://github.com/CoderXreyance)
+- [Utsav Kadecha](https://github.com/UtsavKadecha10)
 
 
 ## Setup ⚙️
@@ -54,8 +54,8 @@ To set up and run this project locally, follow these steps:
    ```
 4. Start the frontend:
 ```bash
-cd frontend
-npm start
+  cd frontend
+  npm start
 ```
 5. Access the web app in your browser at http://localhost:3000/.
 
