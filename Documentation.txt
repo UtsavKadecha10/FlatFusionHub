@@ -1,78 +1,104 @@
-FlatFusionHub, a web app project that is based on MERN stack and ML/DL + MLOps!
-In today`s world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
+Project Overview: FlatFusionHub
 
-This Project consists of 4 basic components:
-1. Frontend
-    -In this, we will be using React App, with of HTML, CSS and Javascript included.
-    -We will be adding Buying, Selling and Renting feature into this webapp.
-    -Also comparision of various flats/apartments will be  according to user preference in the near future.
-    -Users will be able to view Apartments/Flats for buying or rent. 
-    -Whereas for additional purposes like getting more details about the apartments/flats or getting related information or even Selling any Apartment/Flat they will have to Login/SignIn for authentication.
+FlatFusionHub is a comprehensive web application project built on the MERN stack, augmented with the power of Machine Learning (ML) and Deep Learning (DL) techniques, seamlessly integrated with MLOps practices. In a world where finding flats and apartments can be a daunting task, our web app aims to simplify the process, helping users find affordable housing solutions.
 
-2. Backend
-    -We will use Nodejs as a backend technology where we will be using different APIs, middleware, methods to create a functional website. 
-    -The authentication functionality will be fulfilled by using JWT(JSONWebToken) and cookies will be used for better User Experience.
+Project Components:
 
-3. Database
-    -Database is one of the most important component of any webapp, we will be using MongoDB and mySQL for database Entries.
-    -Tables created will be:
-        APARTMENT/FLAT FOR SELL/RENT
-		Entries in db:
-			Type of User
-			Name
-			Mobile No.
-			Email
-			Property for (sell/rent)
-			Property Type
-			City
-			Locality
-			Furnishing details
-		Entries for predicting rate 
+1. **Frontend:**
+   - Utilizing React, HTML, CSS, and JavaScript to create an interactive user interface.
+   - Incorporating features for buying, selling, and renting flats and apartments.
+   - Future plans include adding a comparison feature based on user preferences.
+   - Users can browse available flats and apartments for buying or renting.
+   - For additional functionalities like detailed property information, related insights, or listing properties for sale, users will need to authenticate via login/sign-in.
 
-	APARTMENT/FLAT FOR RENT
-		Entries in db: 
-			Flat No. 
-			BHK
-			Rent
-			Total Floor
-			Current Floor
-			Area Locality
-			City
-			Furnishing status
-			Preferred Tenants
-			Bathroom
-			Point of contact
-		Entries for predicting rent:
-			BHK	
-			Size
-			Area Locality
-			Current Floor
-			City
-			Furnishing status
-			Preferred tenants
-			Bathroom
+2. **Backend:**
+   - Leveraging Node.js for the backend, we will employ various APIs, middleware, and methods to ensure a functional website.
+   - User authentication will be implemented using JSON Web Tokens (JWT), while cookies will enhance the overall user experience.
 
-	APARTMENT/FLAT TO BUY
-			Entries in db:
-			Entries for predicting amount:
+3. **Database:**
+   - The database is a pivotal component of the web application. We will employ both MongoDB and MySQL for data storage.
+   - Key tables in the database include:
+        - **APARTMENT/FLAT FOR SELL/RENT:**
+            - Entries in db:
+                - Type of User
+                - Name
+                - Mobile No.
+                - Email
+                - Property for (sell/rent)
+                - Property Type
+                - City
+                - Locality
+                - Furnishing details
+            - Entries for predicting rate 
 
-	LOGS
-		Entry every time we hit any API:
-			url
-			method
-			ipAddress
+        - **APARTMENT/FLAT FOR RENT:**
+            - Entries in db: 
+                - Flat No. 
+                - BHK
+                - Rent
+                - Total Floor
+                - Current Floor
+                - Area Locality
+                - City
+                - Furnishing status
+                - Preferred Tenants
+                - Bathroom
+                - Point of contact
+            - Entries for predicting rent:
+                - BHK	
+                - Size
+                - Area Locality
+                - Current Floor
+                - City
+                - Furnishing status
+                - Preferred tenants
+                - Bathroom
 
-	USER INFORMATION
-		Entries in db:
-			User Type(Agent/Owner/Tenant/Buyer/Builder)
-			Name
-			Age
-			Email
-			Phone No.
+        - **APARTMENT/FLAT TO BUY:**
+            - Entries in db:
+            - Entries for predicting amount:
 
-4. Machine Learning/Deep Learning + MLOps
-	-Obtain authentic datasets from Kaggle.
-	-Implement ML/DL algorithms for model training.
-	-Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
-	-Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
+        - **LOGS:**
+            - Entry every time we hit any API:
+                - url
+                - method
+                - ipAddress
 
+        - **USER INFORMATION:**
+            - Entries in db:
+                - User Type(Agent/Owner/Tenant/Buyer/Builder)
+                - Name
+                - Age
+                - Email
+                - Phone No.
+
+4. **Machine Learning and Deep Learning Integration with MLOps:**
+
+   In this section, we will harmoniously merge ML and DL methodologies with MLOps practices to ensure a structured and efficient workflow. Our objectives encompass:
+
+    - Predicting flat rents using the scikit-learn library and the XGBRFRegressor algorithm.
+    - Forecasting final flat prices for buying purposes using artificial neural networks (ANN) implemented with TensorFlow and Keras.
+
+**Key Components:**
+
+1. **MLOps Integration:**
+   - Implementing MLOps methodologies to streamline various project stages, including data preparation, model training, model evolution, hyperparameter tuning, and deployment.
+
+2. **Library Utilization:**
+   - Leveraging renowned libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras to facilitate efficient development and analysis.
+
+3. **Rent Prediction Model (scikit-learn):**
+   - Utilizing the scikit-learn library to construct a robust rent prediction model.
+   - Employing the XGBRFRegressor algorithm, acknowledged for its exceptional regression capabilities.
+   - Carefully partitioning the dataset into training and testing subsets for thorough model evaluation.
+
+4. **Deep Learning Model (TensorFlow and Keras):**
+   - Implementing advanced deep learning techniques using TensorFlow and Keras for forecasting final flat prices.
+   - Tailoring artificial neural networks (ANN) to the specific prediction task.
+   - Validating model performance using appropriate evaluation metrics.
+
+5. **Dataset Acquisition:**
+   - Acquiring authentic and pertinent datasets from Kaggle, ensuring alignment with the project's core objectives.
+   - Employing data preprocessing techniques, including data cleaning, handling missing values, and encoding categorical variables, as required.
+
+Our objective is to provide accurate predictions for both flat rents and final flat prices, all while adhering to industry best practices in ML and DL development, as well as MLOps methodologies.
