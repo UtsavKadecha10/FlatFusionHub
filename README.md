@@ -26,9 +26,9 @@ FlatFusionHub is a cutting-edge web application project based on the MERN stack,
 
 ## Contributors 🙌
 
-- [Aditya Goyal](https://github.com/I-AdityaGoyal)
-- [Reyance Yogi](https://github.com/CoderXreyance)
-- [Utsav Kadecha](https://github.com/UtsavKadecha10)
+- [Aditya Goyal](https://github.com/I-AdityaGoyal) [Machine Learning & Deep Learning]
+- [Reyance Yogi](https://github.com/CoderXreyance) [Frontend]
+- [Utsav Kadecha](https://github.com/UtsavKadecha10) [Backend]
 
 
 ## Setup ⚙️
