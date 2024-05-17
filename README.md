@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-# FlatFusionHub
-FlatFusionHub, a web app project that is based on MERN stack and MLOps!
-In today's world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
-=======
 # FlatFusionHub 🏢
 
 FlatFusionHub is a cutting-edge web application project based on the MERN stack, enriched with MLOps practices. In today's challenging real estate market, finding affordable flats and apartments is a significant concern. This web app aims to simplify the process, making it easier for users to discover economical housing solutions.
 
->>>>>>> e36526122382fadda8e6df52ed9bd5c6b988c49c
 
 ## Tech Used:
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" style="width:400px" alt="">
   
-<<<<<<< HEAD
-  ### Frontend
-  ### Backend
-  ### Database
-  ### MLOps
-=======
 ### Frontend
 <img src="/assets/react.png" style="width:60px" alt=""><img src="/assets/frontend.png" style="width:180px" alt="">
 
@@ -91,4 +79,3 @@ Thank you for your interest in FlatFusionHub! We appreciate your support and con
 Feel free to explore the project, contribute, and make it your own. We look forward to your involvement!
 
 **Happy Flathunting! 🏠**
->>>>>>> e36526122382fadda8e6df52ed9bd5c6b988c49c
